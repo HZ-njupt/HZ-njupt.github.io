@@ -164,6 +164,66 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/27/article1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/aaa.jpeg">
+      <meta itemprop="name" content="HZhuo">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/01/27/article1/" class="post-title-link" itemprop="url">Vue+ElementUI学生学分管理系统</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              <time title="Erstellt: 2020-01-27 17:26:53 / Geändert am: 17:53:47" itemprop="dateCreated datePublished" datetime="2020-01-27T17:26:53+08:00">2020-01-27</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><h3 id="1、ElementUI-data不实时更新"><a href="#1、ElementUI-data不实时更新" class="headerlink" title="1、ElementUI data不实时更新"></a>1、ElementUI <el-table>data不实时更新</h3><p>父组件传入的数据更新了但是表格数据没有变化，加了row-key也没有用，最后解决方法是在用户点击菜单栏时让子组件的v-if=true，应该能有更好的解决方法。</p>
+<h3 id="2、使用axios中this指向问题"><a href="#2、使用axios中this指向问题" class="headerlink" title="2、使用axios中this指向问题"></a>2、使用axios中this指向问题</h3><p>axios中使用this一直报错undefined,改用箭头函数解决问题<br>axios.get(‘url’).then((res)=&gt;</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/25/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -299,7 +359,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">Artikel</span>
         </a>
       </div>
